@@ -1,0 +1,51 @@
+.slider_adjust{
+	position: fixed;
+	top: 56px;
+	left: 0;
+	bottom: 0;
+	right:0;
+	overflow: auto;
+	background-color: cyan;
+
+}
+
+#nav_horizontal{
+	background-color: #000;
+	font-family: verdana;
+
+}
+
+#nav_hr li a:hover{
+	color:#fff;
+	
+}
+
+#nav_hr{
+	margin-right: 70px;
+
+}
+#nav_hr li a {
+	padding-right: 20px;
+	color: #ff9933;
+}
+
+@media(max-width: 768px){
+	#nav_horizontal img{
+		width: 200px;
+	}
+}
+
+#side_pix {
+	background-color: black;
+	height: 250px;
+}
+
+#side_pix img{
+	margin-top: 35%;
+	margin-left: 17%;
+	border:2px solid #ff9933;
+	padding-top: 5px;
+	padding-left: 3px;
+}
+
+#about

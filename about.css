@@ -1,0 +1,21 @@
+body{
+	background-image: url(img/subscribe.png);
+}
+
+#about-header h1 {
+	text-shadow: 4px 4px 8px #000000;
+	color: #ff9933;
+
+}
+
+#about-header h3 {
+	text-shadow: 4px 4px 8px #000000;
+	color: black;
+
+}
+
+#box1{
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+}

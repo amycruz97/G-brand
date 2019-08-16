@@ -1,0 +1,95 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Welcome to G'brand</title>
+
+	<link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="about.css">
+  <link rel="stylesheet" type="text/css" href="collection.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <script src="https://use.fontawesome.com/fed76be704.js"></script>
+
+</head>
+<body>
+
+
+  <nav>
+    <div class="nav-wrapper" id="nav_horizontal">
+      <a href="index.html" class="brand-logo"><img src="img/logo.jpg" height="70px"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-align-justify fa-2x"></i></a>
+      <ul class="right hide-on-med-and-down" id="nav_hr">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+      	<div id="side_pix"><img src="img/logo.jpg" class="responsive-img"></div>
+
+         <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Collections.html">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+    </div>
+  </nav>
+         
+  	<div class="slider_adjust">
+     <div class="slider fullscreen ">
+    	<ul class="slides">
+     	 	<li>
+        	<img src="img/img4.jpeg">
+        <div class="caption right-align">
+          	<h2>We Are Unique</h2>
+          	<h5 class="light grey-text text-lighten-3" style="font-size: 14px;">We Stand out from the crowd... </h5>
+        </div>
+      		</li>
+     		 <li>
+      	    <img src="img/img5.jpeg">
+        <div class="caption left-align">
+         	 <h2>We Are Superior</h2>
+         	 <h5 class="light grey-text text-lighten-3" style="font-size: 14px;">Providing Quality Product...</h5>
+        </div>
+     		 </li>
+     		 <li>
+      		  <img src="img/img2.jpeg">
+        <div class="caption center-align">
+          <h1 style="background-color: rgba(17,17,17,.5); padding-top: 20px; padding-bottom: 20px;">We Are G'Brand</h1>
+          <h5 class="light grey-text text-lighten-3" style="background-color: rgba(17,17,17,.5); padding-top: 5px; padding-bottom: 5px; font-size: 17px;">Bringing Elegance to Your Doorstep...</h5>
+        </div>
+      		 </li>
+        </ul>
+  </div>
+ </div>
+
+
+
+	
+
+
+	<script type="text/javascript" src="materialize/js/jquery-1.8.2.min.js"></script>
+	 <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+	 <script>
+	 	 $(document).ready(function(){
+      $('.slider').slider();
+    });
+	 </script>
+
+	 <script >
+	 	$(".button-collapse").sideNav();
+        
+
+	 </script>
+
+</body>
+</html>
